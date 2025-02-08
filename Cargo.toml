@@ -1,0 +1,15 @@
+[package]
+name = "gkr"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ark-bls12-381 = "0.5"
+ark-ff = "0.5"
+ark-poly = "0.5"
+ark-std = "0.5"
+rand = "0.8.5"
+
+[dev-dependencies]
+rstest = "0.12.0"
+lazy_static = "1.4.0"
